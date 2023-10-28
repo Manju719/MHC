@@ -1,0 +1,116 @@
+
+div::-webkit-scrollbar {
+    display:none;
+  }
+  ::-webkit-scrollbar{
+    width:2rem;
+  }
+  ::-webkit-scrollbar-track {
+    background-color:  var(--black);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--helper);
+    border-radius: 1rem;
+    border: 0.5rem solid transparent;
+    background-clip: content-box;
+   
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--helper);
+  }
+
+
+
+
+
+
+
+  /* @media all and (max-width:599px){
+    .ex1{
+      height: 155px;
+    width: 430px;
+    font-size: 7px;
+    overflow: scroll;
+    border: 1px solid black ;
+    background-color: red;
+    border-radius: 10px;
+    }
+  } */
+
+  /* @media all and (min-width:600px){
+    .ex1{
+      height: 305px;
+    width: 570px;
+    font-size: 12px;
+    overflow: scroll;
+    border: 1px solid black ;
+    border-radius: 10px;
+    background-color: blue;
+    }
+  } */
+
+
+  /* @media all and (min-width:641px){
+    .ex1{
+      height: 205px;
+    width: 620px;
+    font-size:12px;
+    overflow: scroll;
+    border: 1px solid black ;
+    border-radius: 10px;
+    background-color: green;
+    }
+  } */
+
+
+  /* @media all and (min-width:768px){
+    .ex1{
+      height: 250px;
+    width: 920px;
+    font-size: 12px;
+    overflow: scroll;
+    border: 1px solid black ;
+    border-radius: 10px;
+    background-color: yellow;
+    }
+  } */
+
+  /* @media all and (max-width:660px){
+    .ex1{
+      height: 250px;
+    width: 520px;
+    font-size: 12px;
+    overflow: scroll;
+    border: 1px solid black ;
+    border-radius: 10px;
+    background-color: peru;
+    }
+  } */
+  
+/* 
+  @media all and (min-width:992px){
+    .ex1{
+      height: 305px;
+    width: 880px;
+    font-size: 12px;
+    overflow: scroll;
+    border: 1px solid black ;
+    border-radius: 10px;
+    background-color: purple;
+    }
+  } */
+
+  /* @media all and (min-width:1200px){
+    .ex1{
+    height: 360px;
+    width: 1200px;
+    overflow: hidden;
+    font-size: 12px;
+    overflow: scroll;
+    border: 1px solid black ;
+    background-color: palegoldenrod;
+    border-radius: 10px;
+    }
+  } */

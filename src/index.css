@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+table,tr,td,th{
+    border: 2px solid rgb(241, 241, 241);
+}
+
+.bgg{
+    background-image: url(./IMAGES//Overview//DoctorImg1.jpg);
+    background-size:cover;
+}
+.main{
+    
+    
+    /* width: 1000px; */
+    height: 670px;
+    overflow: scroll;
+    border: 1px solid black transparent;
+    border-radius: 10px;
+    /*overflow: hidden;*/
+}
